@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(24, 106, 153, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: rgba(28, 121, 175, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       background-size: cover;
       background: url("../img/p1.jpg");
       border-radius: 50%;
-      border: solid 3px #021999; }
+      border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #021999; }
+      color: #eece1a; }
   .menu .nav-link {
     display: inline;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #021999; }
+      color: #eece1a; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -125,7 +125,7 @@
   box-sizing: border-box; }
 
 body {
-  background: rgba(28, 121, 175, 0.644);
+  background: #000;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -143,7 +143,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(28, 121, 175, 0.5); }
+      background: rgba(0, 0, 0, 0.5); }
 
 h1,
 h2,
@@ -159,7 +159,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(29, 127, 184, 0.5); }
+    background: rgba(5, 5, 5, 0.5); }
 
 a {
   color: #fff;
@@ -171,7 +171,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #021999; }
+  color: #eece1a; }
 
 main {
   padding: 4rem;
@@ -181,7 +181,7 @@ main {
     main .icons a {
       padding: 0.5rem; }
       main .icons a:hover {
-        color: #021999;
+        color: #eece1a;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
