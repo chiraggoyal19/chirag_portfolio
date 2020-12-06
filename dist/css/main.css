@@ -144,7 +144,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh-60px); }
+  height: 100%; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -236,7 +236,10 @@ main {
   padding: 1rem;
   background: black;
   color: #fff;
-  height: 60px; }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
 
 @media screen and (min-width: 1171px) {
   .projects {
